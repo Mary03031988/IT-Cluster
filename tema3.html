@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table td {
+            border: 1px solid;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>This is a table!</caption>
+        <tr>
+            <th>Title</th>
+            <th>Title</th>
+            <th>Title</th>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                <table>
+                    <tr>
+                        <td>Cell</td>
+                    </tr>
+                </table>
+            </td>
+            <td colspan="2">Cell 1</td>
+        </tr>
+        <tr>
+            <td>Cell 2</td>
+            <td>Cell 2</td>
+        </tr>
+        <tr>
+            <td colspan="3">Cell 3</td>
+        </tr>
+    </table>
+
+</body>
+</html>
